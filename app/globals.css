@@ -22,6 +22,7 @@
      }
     .font-sue-ellen {
         font-family: 'Sue Ellen Francisco', cursive;
+        @apply text-2xl;
     }
     .font-work-sans {
         font-family: 'Work Sans', sans-serif;
@@ -38,12 +39,12 @@
 }
 
 .titleMd {
-    @apply md:text-4xl font-shippori-bold text-3xl ;
+    @apply  font-shippori-bold text-3xl  sm:text-4xl md:text-4xl ;
 }
 
 .defaultText {
     @apply text-base font-work-sans;
-    @apply text-[13px] md:text-lg;
+    @apply text-[15px] md:text-lg;
     @apply text-gray-700;
 }
 

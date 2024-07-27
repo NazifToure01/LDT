@@ -4,7 +4,7 @@ import { Check } from 'lucide-react';
 const dons =
     [
         'Dons de nourriture',
-        'Fourniture et équipement sportif',
+        'Equipement sportif',
         'Aide financière',
         'Aide matérielle',
         'Dons de vêtements',
@@ -12,7 +12,7 @@ const dons =
 
 const AboutUs = () => {
     return (
-        <section id="about" className="py-16 px-4 sm:px-6 lg:px-8">
+        <section id="about" className="py-36 px-4 sm:px-6  lg:px-8">
             <div className="max-w-7xl mx-auto">
                 <div className="flex flex-col md:flex-row gap-12">
                     {/* Colonne de gauche */}
@@ -22,9 +22,6 @@ const AboutUs = () => {
                         <p className="text-gray-600 mb-4">
                             L'association <strong>Let's Do It Together</strong> est une organisation à but non lucratif dédiée à promouvoir le basketball féminin et à apporter des moments de joie aux enfants orphelins, talibés et en situation difficile au Bénin, en Afrique et en France. Notre mission est de créer des opportunités et des souvenirs inoubliables à travers le sport, en particulier le basketball.
                         </p>
-                        <button className="bg-pink-500 text-lg text-white px-6 py-3 rounded-full font-semibold hover:bg-pink-600 transition duration-300">
-                            EN SAVOIR PLUS
-                        </button>
                     </div>
 
                     {/* Colonne de droite */}

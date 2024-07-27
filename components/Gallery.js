@@ -36,7 +36,7 @@ const Gallery = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
                     <div className="md:pr-8 flex flex-col gap-3 justify-center">
                         <div>
-                            <h2 className="text-pink-500 font-sue-ellen text-sm mb-2">Nos Réalisations</h2>
+                            <h2 className="text-pink-500 font-sue-ellen mb-2">Nos Réalisations</h2>
                             <h1 className="titleMd font-bold mb-4">
                                 Retour en images sur nos projets
                             </h1>
@@ -84,13 +84,13 @@ const Gallery = () => {
                             height={300}
                             className="rounded-lg w-full h-full object-cover"
                         />
-                        <div className="bg-yellow-400 p-4 rounded-lg flex flex-col justify-center">
+                        <div className="bg-yellow-400 p-4 rounded-lg flex flex-col items-center justify-center">
                             <div className="flex gap-2 mb-2">
                                 <span className="bg-green-500 text-white px-2 py-1 rounded-full text-xs">Éducation</span>
                                 <span className="bg-green-500 text-white px-2 py-1 rounded-full text-xs">Santé</span>
                                 <span className="bg-green-500 text-white px-2 py-1 rounded-full text-xs">Sport</span>
                             </div>
-                            <h3 className="text-lg font-bold">Plus d'un sourire à la fois...</h3>
+                            <h3 className="text-xs md:text-lg font-bold">Plus d'un sourire à la fois...</h3>
                         </div>
                         <ImageWithPopup
                             src="/images/img3.jpg"

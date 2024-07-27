@@ -29,8 +29,9 @@ const VolunteerCard = ({ name, image, linkedinLink }) => (
 const MeetOurVolunteers = () => {
     const volunteers = [
         { name: "Arielle Kouke", image: "/images/arielle.jpg", linkedinLink: "https://www.linkedin.com/in/arielle-kouke" },
-        { name: "Keira Knightley", image: "/images/volontaire.jpg", linkedinLink: "https://www.linkedin.com/in/ilimath-amouda-244042135/" },
-        { name: "Jack Sparrow", image: "/images/volontaire.jpg", linkedinLink: "#" },
+        { name: "Adréa Moussama", image: "/images/andrea.jpg", linkedinLink: "https://linkedin.com/in/andréa-moussama-0403831b6" },
+        { name: "Ilimath Amouda", image: "/images/ilimath.jpg", linkedinLink: "https://www.linkedin.com/in/ilimath-amouda-244042135/" },
+        { name: "Nazif Toure", image: "/images/nazif.jpg", linkedinLink: "https://www.linkedin.com/in/nazif-toure/" },
     ];
 
     const [isMobile, setIsMobile] = useState(false);
@@ -57,9 +58,9 @@ const MeetOurVolunteers = () => {
             }
         };
 
-        const interval = setInterval(autoPlayCarousel, 5000);
+        //const interval = setInterval(autoPlayCarousel, 5000);
 
-        return () => clearInterval(interval);
+        //return () => clearInterval(interval);
     }, []);
 
     const buttonClass = `absolute top-1/2 -translate-y-1/2 bg-white bg-opacity-50 hover:bg-opacity-100 transition-all duration-300 rounded-full p-2 ${isMobile ? 'w-8 h-8' : 'w-10 h-10'}`;

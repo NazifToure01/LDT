@@ -72,16 +72,15 @@ const OurCauses = () => {
     const buttonClass = `absolute top-1/2 -translate-y-1/2 bg-white bg-opacity-50 hover:bg-opacity-100 transition-all duration-300 rounded-full p-2 ${isMobile ? 'w-8 h-8' : 'w-10 h-10'}`;
 
     return (
-        <section id="event" className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-100">
+        <section id="event" className="py-36 md:py-16 px-4 sm:px-6 lg:px-8 bg-gray-100">
             <div className="max-w-7xl mx-auto">
                 <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8">
                     <div className="mb-4 md:mb-0">
-                        <h3 className="text-pink-500 font-sue-ellen">Nos Causes</h3>
-                        <h2 className="titleMd font-bold text-gray-800">Vous pouvez aider beaucoup de gens<br />en donnant peu.</h2>
+                        <h3 className="text-pink-500 font-sue-ellen">Nos Activités</h3>
+                        <h2 className="titleMd font-bold text-gray-800">
+                            Découvrez Nos dernières actions
+                        </h2>
                     </div>
-                    <button className="bg-pink-500 text-white px-6 py-2 rounded-full hover:bg-pink-600 transition duration-300">
-                        FAIRE UN DON
-                    </button>
                 </div>
 
                 <div className="relative" ref={carouselRef}>

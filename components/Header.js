@@ -26,7 +26,9 @@ const Header = () => {
                 </div>
             </div>
             <div className="container mx-auto flex justify-between items-center py-4 px-4">
-                <div className="flex items-center space-x-2">
+                <a
+                    href="/"
+                    className="flex items-center space-x-2">
                     <Image
                         src="/images/logo.png"
                         alt="Logo"
@@ -34,7 +36,7 @@ const Header = () => {
                         height={40}
                     />
                     <span className="text-xl font-bold text-gray-800">Let’s Do It Together</span>
-                </div>
+                </a>
                 <nav className="hidden md:block">
                     <ul className="flex space-x-6">
                         <li><a href="/" className="hover:text-green-500">Home</a></li>

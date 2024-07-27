@@ -7,7 +7,7 @@ const Contact = () => {
             <div className="max-w-6xl w-full flex flex-col md:flex-row gap-8">
                 {/* Left Section */}
                 <div className="md:w-1/2">
-                    <h2 className="text-sm mb-2 font-sue-ellen">Comment Nous Aidons</h2>
+                    <h2 className="mb-2 font-sue-ellen">Comment Nous Aidons</h2>
                     <h1 className=" titleMd font-bold mb-4">Rejoignez La Communauté Pour Offrir Une Éducation Aux Enfants</h1>
                     <p className="mb-4">
                         L'association <strong>Let's Do It Together</strong> s'efforce de fournir des opportunités éducatives et de soutien aux enfants en situation difficile. Nous croyons en l'importance de l'éducation pour créer un avenir meilleur.
